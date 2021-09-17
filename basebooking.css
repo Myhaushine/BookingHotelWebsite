@@ -1,0 +1,14 @@
+.grip {
+    width: 1200px;
+    max-width: 100%;
+}
+.grip__row {
+    margin-left: -12px;
+    margin-right: -12px;
+
+}
+.grip__column {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+

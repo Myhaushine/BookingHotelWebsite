@@ -1,0 +1,174 @@
+@media (max-width: 739px) {
+    html {
+        width: 310%;
+    }
+    #header {
+        background-color: #222;
+        font-size: 53px;
+        height: fit-content;
+    }
+    .slider__container__header {
+        display: none;
+    }
+    .slider__container__search {
+        display: none;
+    }
+    #slider {
+        position: relative;
+        width: 100%;
+        padding-top: 150%;
+        opacity: 30px;
+    }
+    .slider__container__search__mobile {
+        display: flex;
+        margin-top: -90%;
+    }
+    .slider__container__sub {
+        font-size: 100px;
+    }
+    .slider__container__button > a {
+        padding: 50px;
+        font-weight: 500;
+        border-radius: 123px;
+        width: 225px;
+        font-size: 70px;
+        display: block;
+        width: 800px;
+        margin-left: -150%;
+    }
+    .slider__container__button:hover > a {
+        padding: 50px;
+        background-color: rgba(248, 247, 247, 0.404);
+    }
+    #nearplaces {
+        font-size: 70px;
+    }
+    .nearplaces__tittle {
+        font-size: 100px;
+    }
+    .nearplaces__mobile {
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .nearplaces__showplace {
+        width: 410%;
+    }
+    .everywhereplace__show__head,
+    .footer__head,
+    .explore__show{
+        width: 410%;
+    }
+    .everywhereplace__show__head--item {
+        width: calc(100% / 4 );
+    }
+    .everywhereplace__tittle {
+        font-size: 100px;
+    }
+    .everywhereplace__show__head--item-dis {
+        padding: 10px;
+        font-size: 70px;
+        font-weight: 700;
+        margin: 32px;
+    }
+    .everywhereplace__show__foot--img {
+        width: 100%;
+        padding-top: 66%;
+        border-radius: 30px;
+    }
+    .everywhereplace__show__foot > a {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .everywhereplace__show__foot--text {
+        position: absolute;
+        width: 98%;
+        margin-left: -3px;
+        padding: 14px;
+        color: #fff;
+        background-color: #444;
+        border-radius: 31px;
+        transform: translateY(-55%);
+    }
+    .everywhereplace__show__foot--text-tittle {
+        font-size: 100px;
+        font-weight: 900;
+        width: 100%;
+        text-align: center;
+    }
+    .everywhereplace__show__foot--text--sub {
+        line-height: 78px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .everywhereplace__show__foot--text-button {
+        width: 400px;
+        background-color: #fff;
+        color: #000;
+        padding: 50px;
+        text-align: center;
+        border-radius: 103px;
+        font-weight: 700;
+        box-shadow: 0 0 3px #999;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 50px;
+    }
+    .explore__ttile {
+        font-size: 100px;
+    }
+    .explore__show__item--text {
+        font-size: 60px;
+    }
+    .explore__show__item--text-ttitle {
+        font-weight: 700;
+        font-size: 70px;
+        margin-bottom: 14px;
+    }
+    .explore__show__item--text--dis {
+        line-height: 94px;
+    }
+    .footer__head__item {
+        width: calc(100% / 4);
+        padding: 20px 86px;
+    }
+    .footer__head__item > p {
+        width: 100%;
+        line-height: 82px;
+        font-size: 70px;
+    }
+    .footer__head__item__tittle {
+        margin: 116px 0;
+        margin-left: -10px;
+        font-weight: 900;
+        font-size: 20px;
+        font-size: 100px !important;
+    }
+    .footer__foot {
+        display: block;
+        font-size: 50px;
+    }
+    .footer__foot__contact {
+        display: flex;
+        display: flex;
+        padding: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+        width: 147%;
+    }
+    .footer__head {
+        margin: 55px;
+    }
+}
